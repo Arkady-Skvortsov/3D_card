@@ -1,0 +1,42 @@
+body {
+    		margin: 0;
+    	}
+
+    	* {
+    		box-sizing: border-box;
+    	}
+
+    	.container {
+    		display: flex;
+    		height: 100vh;
+            background: orange;
+            justify-content: center;
+            align-items: center;
+    	}
+
+    	.container .cards {
+    		transform-style: preserve-3d;
+    		perspective: 1000px;
+    	}
+
+    	.container .cards .card {
+    		height: 400px;
+    		width: 400px;
+    		margin-left: 40px;
+    		background-position: center;
+    		background-size: cover;
+    		transition: transform 0.4s;
+    	}
+
+
+        .container .cards .Nathan {
+        	background-image: url('img2/Nathan.jpg');
+        }
+
+        .container .cards .Sam {
+        	background-image: url('img2/Sam.jpg');
+        }
+
+        .container .cards .The_last {
+        	background-image: url('img4/Logo_main.jpg');
+        }
